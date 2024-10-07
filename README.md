@@ -26,7 +26,8 @@ To deploy and interact with these smart contracts, you will need the following:
 
 ```bash
 git clone https://github.com/your-repository/hydrogen-certification.git
-cd hydrogen-certification```
+cd hydrogen-certification
+```
 
 2. Open REMIX IDE (https://remix.ethereum.org) and upload the three smart contracts from this repository:
 
