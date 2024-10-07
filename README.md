@@ -17,9 +17,9 @@ Facilitates the certification of hydrogen production. It verifies the energy-to-
 ### Prerequisites
 To deploy and interact with these smart contracts, you will need the following:
 
-1. REMIX IDE (or any Solidity-compatible IDE)
-2. Solidity Compiler (version 0.8.0 or higher)
-3. Access to an Ethereum testnet (such as Ropsten or Rinkeby) or a local Ethereum node (such as Ganache)
+* REMIX IDE (or any Solidity-compatible IDE)
+* Solidity Compiler (version 0.8.0 or higher)
+* Access to an Ethereum testnet (such as Ropsten or Rinkeby) or a local Ethereum node (such as Ganache)
 
 ### Installation and Deployment
 1. Clone this repository:
@@ -31,16 +31,20 @@ cd hydrogen-certification
 
 2. Open REMIX IDE (https://remix.ethereum.org) and upload the three smart contracts from this repository:
 
-RegistrationContract.sol
-EnergyCertificationContract.sol
-HydrogenCertificationContract.sol
+* RegistrationContract.sol
+* EnergyCertificationContract.sol
+* HydrogenCertificationContract.sol
+  
 Compile each contract in REMIX by selecting the Solidity Compiler and ensuring the correct version (0.8.0 or higher).
 
 Deploy the contracts in the following order:
 
-First, deploy the RegistrationContract.sol to initialize the registration of stakeholders and smart meters.
-Next, deploy the EnergyCertificationContract.sol to manage energy certification.
-Finally, deploy the HydrogenCertificationContract.sol to handle the hydrogen certification process.
+1. Deploy the RegistrationContract.sol to initialize the registration of stakeholders and smart meters.
+   
+2. Deploy the EnergyCertificationContract.sol to manage energy certification.
+   
+3. Deploy the HydrogenCertificationContract.sol to handle the hydrogen certification process.
+   
 Ensure that the deployed contract addresses are correctly linked when interacting with the respective contracts.
 
 ## Usage
